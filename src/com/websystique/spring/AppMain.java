@@ -9,6 +9,5 @@ public class AppMain {
 
 		Communication app = (Communication)context.getBean("communication");
 	    app.communicate();
-	    System.out.println("Hello World!");
 	}
 }
